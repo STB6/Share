@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void)
 {
     char a[20] = "wel", b[] = "come";

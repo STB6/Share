@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 void encrypt(char *str)
 {
     for (; *str != '\0'; str++)
@@ -10,6 +11,7 @@ void encrypt(char *str)
         }
     }
 }
+
 void decrypt(char *str)
 {
     for (; *str != '\0'; str++)
@@ -20,6 +22,7 @@ void decrypt(char *str)
         }
     }
 }
+
 int main(void)
 {
     char str[100];

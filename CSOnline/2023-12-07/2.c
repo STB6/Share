@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define M 3
 #define N 4
+
 void fun(char s[][N], char *b)
 {
     int i, j, n = 0;
@@ -14,6 +15,7 @@ void fun(char s[][N], char *b)
     }
     b[n] = '\0';
 }
+
 int main(void)
 {
     char a[100], w[M][N] = {{'W', 'W', 'W', 'W'}, {'S', 'S', 'S', 'S'}, {'H', 'H', 'H', 'H'}};

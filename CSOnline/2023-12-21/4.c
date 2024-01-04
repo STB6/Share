@@ -6,6 +6,7 @@ typedef struct Node
     int data;
     struct Node *next;
 } Node;
+
 Node *create(int *arr, int n)
 {
     Node *head, *tail;
@@ -23,6 +24,7 @@ Node *create(int *arr, int n)
 
     return head;
 }
+
 Node *merge(Node *head1, Node *head2)
 {
     Node *head, *tail;
@@ -38,7 +40,6 @@ Node *merge(Node *head1, Node *head2)
         tail->next = node1;
         tail = node1;
         p1 = p1->next;
-
         Node *node2 = (Node *)malloc(sizeof(Node));
         node2->data = p2->data;
         node2->next = NULL;
@@ -66,6 +67,7 @@ Node *merge(Node *head1, Node *head2)
     }
     return head;
 }
+
 void printList(Node *head)
 {
     Node *p = head->next;

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 char *fun(char *a, char *b)
 {
     int i = 0, j = 0;
@@ -15,6 +16,7 @@ char *fun(char *a, char *b)
     a[i] = '\0';
     return a;
 }
+
 int main(void)
 {
     char a[100], b[100];

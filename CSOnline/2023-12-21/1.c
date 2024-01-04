@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+
 struct stud
 {
     char name[20];
     int age;
 };
+
 struct stud fun(struct stud person[], int n)
 {
     int min = 0;
@@ -18,6 +20,7 @@ struct stud fun(struct stud person[], int n)
     }
     return person[min];
 }
+
 int main(void)
 {
     struct stud a[] = {{"Zhao", 21}, {"Qian", 20}, {"Sun", 19}, {"Li", 22}};

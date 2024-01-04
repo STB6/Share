@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int fun(int n)
 {
     int p = 1;
@@ -6,6 +7,7 @@ int fun(int n)
         p = p * i;
     return p;
 }
+
 int main(void)
 {
     int n;

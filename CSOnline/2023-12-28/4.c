@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 typedef struct
 {
     int xh;
@@ -6,6 +7,7 @@ typedef struct
     int cj[3];
     float average;
 } Student;
+
 int main(void)
 {
     Student students[5];

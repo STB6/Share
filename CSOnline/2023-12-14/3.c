@@ -1,5 +1,22 @@
 #include <stdio.h>
-void jhmaxmin(int *p, int n);
+
+void jhmaxmin(int *p, int n)
+{
+    int t, *max, *min, *end, *q;
+    end = p + n;
+    max = min = p;
+    for (q = p + 1; q < end; q++)
+    {
+        if (*q > *max)
+            max = q;
+        if (*q < *min)
+            min = q;
+    }
+    t = *max;
+    *max = *min;
+    *min = t;
+}
+
 int main(void)
 {
     int i;
@@ -17,20 +34,4 @@ int main(void)
         printf("%5d", a[i]);
     printf("\n");
     return 0;
-}
-void jhmaxmin(int *p, int n)
-{
-    int t, *max, *min, *end, *q;
-    end = p + n;
-    max = min = p;
-    for (q = p + 1; q < end; q++)
-    {
-        if (*q > *max)
-            max = q;
-        if (*q < *min)
-            min = q;
-    }
-    t = *max;
-    *max = *min;
-    *min = t;
 }

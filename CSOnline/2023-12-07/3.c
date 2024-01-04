@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int is_prime(int num)
 {
     if (num <= 1)
@@ -10,6 +11,7 @@ int is_prime(int num)
     }
     return 1;
 }
+
 void fun(int m, int *k, int xx[])
 {
     *k = 0;
@@ -22,6 +24,7 @@ void fun(int m, int *k, int xx[])
         }
     }
 }
+
 int main(void)
 {
     int m, n, zz[100];

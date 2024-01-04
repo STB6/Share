@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 int isHuiwen(char str[])
 {
     int len = strlen(str);
@@ -12,6 +13,7 @@ int isHuiwen(char str[])
     }
     return 1;
 }
+
 int main(void)
 {
     char strings[5][100];

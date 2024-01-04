@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void)
 {
     double e = 1.0;

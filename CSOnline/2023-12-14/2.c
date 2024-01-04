@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+
 void fun(char *str, char *result)
 {
     int check_0 = 0;

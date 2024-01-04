@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void)
 {
     int r, m, n, t, gcd, lcm;

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define N 4
 #define M 4
+
 int main(void)
 {
     int i, j, k, flag1, a[N][M], max, maxj;

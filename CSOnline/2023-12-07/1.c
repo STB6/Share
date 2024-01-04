@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define M 100
+
 void fun(int m, int *a, int *n)
 {
     int i;
@@ -13,6 +14,7 @@ void fun(int m, int *a, int *n)
         }
     }
 }
+
 int main(void)
 {
     int aa[M], n, k;

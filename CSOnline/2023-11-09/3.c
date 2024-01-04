@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
     int day, x1, x2;

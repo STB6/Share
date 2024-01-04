@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 void sub(char s[], char t[])
 {
     int i, d;
@@ -10,6 +11,7 @@ void sub(char s[], char t[])
         t[d + i] = s[i];
     t[2 * d] = '\0';
 }
+
 int main(void)
 {
     char s[100], t[100];

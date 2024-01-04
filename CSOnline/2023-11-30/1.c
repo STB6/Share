@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int sum(int x[], int n)
 {
     int i, s = 0;
@@ -6,6 +7,7 @@ int sum(int x[], int n)
         s = s + x[i];
     return s;
 }
+
 int main(void)
 {
     int i, i1, i2, result, x[10];

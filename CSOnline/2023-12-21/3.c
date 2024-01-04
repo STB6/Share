@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 struct stu
 {
     int no;
@@ -8,6 +9,7 @@ struct stu
     int c;
     int sum;
 } lst[5];
+
 int main(void)
 {
     int low = 0, high = 0;

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define LENGTH 1000
+
 void MyInstr(char *string)
 {
     for (int index = 0; index < LENGTH; index++)
@@ -12,6 +13,7 @@ void MyInstr(char *string)
     }
     printf("该字符串不含有非法字符*\n");
 }
+
 int main(void)
 {
     char string[100];

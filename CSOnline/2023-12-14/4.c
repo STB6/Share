@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void move(int *arr, int n, int m)
 {
     int temp[m];
@@ -15,6 +16,7 @@ void move(int *arr, int n, int m)
         arr[i] = temp[i];
     }
 }
+
 int main(void)
 {
     int n, m;

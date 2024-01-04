@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void swapMaxMin(int arr[], int size)
 {
     int maxIndex = 0, minIndex = 0;
@@ -17,6 +18,7 @@ void swapMaxMin(int arr[], int size)
     arr[maxIndex] = arr[minIndex];
     arr[minIndex] = temp;
 }
+
 int main(void)
 {
     int numbers[10];

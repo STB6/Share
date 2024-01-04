@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void fun(int x, int pp[], int *n)
 {
     *n = 0;
@@ -11,6 +12,7 @@ void fun(int x, int pp[], int *n)
         }
     }
 }
+
 int main(void)
 {
     int x, aa[1000], n, i;

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int fun(int m)
 {
     int i, k;
@@ -11,6 +12,7 @@ int fun(int m)
             return (i);
     }
 }
+
 int main(void)
 {
     int n;
