@@ -1,3 +1,8 @@
+*
+!*/
+!*.*
+
+*.exe
+
 .vscode/
 __pycache__/
-*.exe
